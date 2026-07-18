@@ -1,0 +1,209 @@
+[
+  {
+    "_id": "demo-user-id",
+    "name": "Jane Doe",
+    "email": "demo@vitalis.com",
+    "passwordHash": "$2b$10$XoO2oRqccouyQeGsBFs6Uu81JwkPS7TevHlw1htVXnFP2q75RYTI.",
+    "role": "user",
+    "profile": {
+      "fullName": "Jane Doe",
+      "phone": "+1 (555) 019-2834",
+      "birthDate": "1990-05-15",
+      "gender": "female",
+      "bloodGroup": "O+",
+      "emergencyContact": "John Doe (+1 555-019-5678)",
+      "insuranceProvider": "Blue Cross Shield",
+      "insuranceNumber": "BCS-99210-A",
+      "preferredHospital": "City General Hospital",
+      "medicalConditions": [
+        "Mild Asthma"
+      ],
+      "allergies": [
+        "Penicillin",
+        "Peanuts"
+      ],
+      "medications": [
+        "Albuterol inhaler (as needed)"
+      ],
+      "familyHistory": [
+        "Type 2 Diabetes (Maternal grandfather)"
+      ]
+    },
+    "reports": [
+      {
+        "title": "Blood Test Analysis",
+        "type": "Blood Test",
+        "fileName": "lipid_profile.pdf",
+        "summary": "The blood test shows a healthy hematological profile, with a mild rise in cholesterol that can be managed with diet and follow-up testing.",
+        "findings": [
+          "Hemoglobin is within normal limits.",
+          "Cholesterol is mildly elevated and should be monitored.",
+          "Blood glucose is stable for the current profile."
+        ],
+        "abnormalValues": [
+          "Total cholesterol"
+        ],
+        "rawText": "Cholesterol: 180 mg/dL",
+        "_id": "repo-e36p3o2"
+      },
+      {
+        "_id": "report-1",
+        "title": "Blood Test Analysis",
+        "type": "Blood Test",
+        "fileName": "blood_panel_july_2026.pdf",
+        "uploadedAt": "2026-07-13T11:37:24.327Z",
+        "summary": "The blood test shows a healthy hematological profile, with a mild rise in cholesterol that can be managed with diet and follow-up testing.",
+        "findings": [
+          "Hemoglobin is within normal limits.",
+          "Cholesterol is mildly elevated and should be monitored.",
+          "Blood glucose is stable for the current profile."
+        ],
+        "abnormalValues": [
+          "Total cholesterol"
+        ],
+        "rawText": "Total cholesterol: 240 mg/dL (High). Hemoglobin: 14.1 g/dL (Normal). Glucose: 92 mg/dL (Normal).",
+        "status": "analyzed"
+      },
+      {
+        "_id": "report-2",
+        "title": "CBC Analysis",
+        "type": "CBC",
+        "fileName": "cbc_report_march_2026.pdf",
+        "uploadedAt": "2026-05-19T11:37:24.327Z",
+        "summary": "CBC metrics appear balanced. There are no urgent abnormalities in the complete blood count.",
+        "findings": [
+          "White blood cell count is normal.",
+          "Red blood cell count is healthy.",
+          "Platelet count is within expected range."
+        ],
+        "abnormalValues": [],
+        "rawText": "WBC: 6.5 x10^3/uL. RBC: 4.8 x10^6/uL. Platelets: 250 x10^3/uL.",
+        "status": "analyzed"
+      }
+    ],
+    "appointments": [
+      {
+        "doctorId": "doc-2",
+        "doctorName": "Dr. Robert Chen",
+        "specialty": "Pediatrician",
+        "date": "2026-08-20",
+        "time": "02:00 PM",
+        "status": "cancelled",
+        "_id": "appo-g55hm2q"
+      },
+      {
+        "_id": "appt-1",
+        "doctorId": "doc-1",
+        "doctorName": "Dr. Sarah Jenkins",
+        "specialty": "Cardiologist",
+        "date": "2026-07-21",
+        "time": "10:30 AM",
+        "status": "confirmed",
+        "createdAt": "2026-07-18T11:37:24.327Z"
+      }
+    ],
+    "notifications": [
+      {
+        "_id": "notif-1",
+        "message": "Your symptom check is complete. Review the results on your dashboard.",
+        "type": "health",
+        "read": false,
+        "createdAt": "2026-07-17T11:37:24.327Z"
+      },
+      {
+        "_id": "notif-2",
+        "message": "Your report analysis is ready in Health History.",
+        "type": "report",
+        "read": true,
+        "createdAt": "2026-07-13T11:37:24.327Z"
+      },
+      {
+        "_id": "notif-3",
+        "message": "Appointment booked with Dr. Sarah Jenkins on 2026-07-21 at 10:30 AM.",
+        "type": "appointment",
+        "read": false,
+        "createdAt": "2026-07-18T11:37:24.327Z"
+      },
+      {
+        "message": "Your symptom check is complete. Review the results on your dashboard.",
+        "type": "health",
+        "_id": "noti-7aqaxro"
+      },
+      {
+        "message": "Your report analysis is ready in Health History.",
+        "type": "report",
+        "_id": "noti-ek1lzy6"
+      },
+      {
+        "message": "Appointment booked with Dr. Robert Chen on 2026-08-20 at 02:00 PM.",
+        "type": "appointment",
+        "_id": "noti-x21cqio"
+      }
+    ],
+    "history": [
+      {
+        "symptoms": [
+          "cough",
+          "fever"
+        ],
+        "duration": "1-3 days",
+        "severity": "moderate",
+        "medicalHistory": [],
+        "allergies": [],
+        "medications": [],
+        "result": {
+          "possibleConditions": [
+            "General wellness review"
+          ],
+          "confidence": "68%",
+          "severityLevel": "moderate",
+          "suggestedSpecialist": "General Physician",
+          "nextSteps": [
+            "Keep a symptom journal and note any changes over the next 24–48 hours.",
+            "Stay hydrated and rest when possible.",
+            "Contact your primary care provider if symptoms worsen or last longer than expected."
+          ],
+          "emergencyWarning": null,
+          "disclaimer": "This assessment is informational only and is not a substitute for professional medical advice."
+        },
+        "_id": "hist-arksq25"
+      },
+      {
+        "_id": "hist-1",
+        "symptoms": [
+          "cough",
+          "fever",
+          "sore throat"
+        ],
+        "duration": "1-3 days",
+        "severity": "moderate",
+        "medicalHistory": [
+          "Mild Asthma"
+        ],
+        "allergies": [
+          "Penicillin"
+        ],
+        "medications": [
+          "Albuterol"
+        ],
+        "result": {
+          "possibleConditions": [
+            "Viral infection",
+            "Upper respiratory infection"
+          ],
+          "confidence": "76%",
+          "severityLevel": "moderate",
+          "suggestedSpecialist": "General Physician",
+          "nextSteps": [
+            "Keep a symptom journal and note any changes over the next 24–48 hours.",
+            "Stay hydrated and rest when possible.",
+            "Contact your primary care provider if symptoms worsen or last longer than expected."
+          ],
+          "emergencyWarning": null,
+          "disclaimer": "This assessment is informational only and is not a substitute for professional medical advice."
+        },
+        "checkedAt": "2026-07-17T11:37:24.327Z"
+      }
+    ]
+  }
+]
